@@ -1,0 +1,32 @@
+html {
+  padding: 0;
+  margin: 0;
+  /* background: pink; */
+  background: #fff1f3 !important;
+}
+
+.footer-bg {
+  background: #1c2936 !important;
+}
+
+.rasalina {
+  background-position: 50% 50%;
+  background-image: url(../components/images/rasalina.png);
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+}
+
+.mark-hen {
+  background-image: url(../components/images/mark-hen.png);
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+}
+
+.ylina {
+  background-image: url(../components/images/ylina.png);
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+}
