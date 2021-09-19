@@ -102,7 +102,7 @@ function Footer() {
           <h5 className="font-bold text-20">RECENT BLOG</h5>
           <div className="pt-4">
             <div className="flex flex-row items-center">
-              <div className="h-4 px-8 py-8 bg-white">
+              <div className="h-4 px-8 py-8 bg-yellow-500 rounded-xl">
                 <img src="" alt="" />
               </div>
               <div className="ml-4">
@@ -113,7 +113,7 @@ function Footer() {
               </div>
             </div>
             <div className="flex flex-row items-center pb-24 mt-8">
-              <div className="h-4 px-8 py-8 bg-white">
+              <div className="h-4 px-8 py-8 bg-yellow-500 rounded-xl">
                 <img src="" alt="" />
               </div>
               <div className="ml-4">

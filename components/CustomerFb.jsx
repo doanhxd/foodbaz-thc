@@ -10,11 +10,11 @@ function CustomerFb() {
     <div className="grid grid-cols-2 mt-32">
       {/* Left */}
       <div className="pt-20 pb-48 bg-gray-900">
-        <div className="flex flex-col pl-10 mt-20 ml-96">
+        <div className="flex flex-col pl-10 mt-16 ml-72">
           <p className="font-serif text-yellow-500 text-24">
             Customer Feedback
           </p>
-          <h1 className="flex flex-row mt-2 font-black text-white text-44">
+          <h1 className="flex flex-row mt-4 font-black text-white text-44">
             WHAT OUR CLIENT SAY?
           </h1>
           <p className="mt-4 text-gray-500 text-18">
@@ -26,7 +26,7 @@ function CustomerFb() {
             Dolore quidem odit pariatur nostrum ut excepturi fugiat?
           </p>
 
-          <div className="flex flex-row mt-8">
+          <div className="flex flex-row mt-12">
             <div className="flex flex-row justify-between space-x-20">
               <div className="font-bold text-yellow-500 text-44">
                 <h1>
@@ -112,7 +112,7 @@ function CustomerFb() {
         </div>
 
         <div className="absolute mt-32 translate-x-96 -translate-y-0">
-          <div className="relative flex flex-col justify-center pt-12 pb-12 pl-12 pr-12 transform bg-white rounded-3xl translate-x-80 -translate-y-0">
+          <div className="relative flex flex-col justify-center pt-12 pb-12 pl-12 pr-12 transform bg-white rounded-3xl translate-x-72 -translate-y-0">
             <div className="flex justify-between">
               <div className="relative flex items-center justify-center w-16 h-16 border-2 border-pink-100 rounded-lg">
                 <Image src={avtCry} />

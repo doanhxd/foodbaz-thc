@@ -6,7 +6,7 @@ import staredIc from "../components/images/stars/stared.png";
 
 function PopularDishe() {
   return (
-    <div className="flex flex-col items-center mt-36">
+    <div className="flex flex-col items-center mt-32">
       {/* Title Area */}
       <div className="">
         <p className="font-serif text-yellow-500 text-24">Popular Dishe</p>

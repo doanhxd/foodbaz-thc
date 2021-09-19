@@ -6,7 +6,7 @@ function OurProfessional() {
   return (
     <div>
       {/* Title Area */}
-      <div className="flex flex-row items-center justify-around mx-16 mt-36">
+      <div className="flex flex-row items-center justify-around -mx-10 mt-36">
         <div className="flex flex-col">
           <div>
             <p className="font-serif text-yellow-500 text-24">

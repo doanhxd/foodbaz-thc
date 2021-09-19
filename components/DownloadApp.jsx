@@ -6,9 +6,9 @@ import ggPlay from "../components/images/gg-play.png";
 function DownloadApp() {
   return (
     <div className="mx-6 mt-48">
-      <div className="flex items-center justify-center bg-white rounded-3xl ml-96 mr-96">
+      <div className="flex items-center justify-center bg-white rounded-3xl mx-80">
         <div className="grid grid-cols-2 text-black">
-          <div className="-mt-32 transform -translate-x-20 -translate-y-0">
+          <div className="-mt-32 transform -translate-x-12 -translate-y-0">
             <Image src={iPhone} />
           </div>
           <div className="flex flex-col mt-20 ml-20">

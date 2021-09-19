@@ -6,8 +6,8 @@ function SpecialKombo() {
   return (
     <div className="grid grid-cols-2 mt-32">
       {/* Left */}
-      <div className="pt-32 bg-gray-900 pb-44">
-        <div className="flex flex-col pl-10 ml-96">
+      <div className="pt-32 pb-32 bg-gray-900">
+        <div className="flex flex-col pl-10 ml-72">
           <p className="font-serif text-yellow-500 text-24">
             Special Kombo Pack
           </p>
@@ -26,7 +26,7 @@ function SpecialKombo() {
             of before arriving
           </p>
           <div className="flex mt-8">
-            <button className="px-10 py-4 my-3 font-bold text-white transition duration-150 bg-green-500 rounded-lg shadow-md hover:shadow-xl active:scale-90">
+            <button className="px-10 py-4 my-3 font-semibold text-white transition duration-150 bg-green-500 rounded-lg shadow-md hover:shadow-xl active:scale-90">
               ORDER NOW
             </button>
             <div className="grid grid-cols-2 ml-14">
