@@ -6,7 +6,7 @@ function OurProfessional() {
   return (
     <div>
       {/* Title Area */}
-      <div className="flex flex-row items-center justify-around -mx-10 mt-36">
+      <div className="flex flex-row items-center justify-between px-2 mx-52 mt-36">
         <div className="flex flex-col">
           <div>
             <p className="font-serif text-yellow-500 text-24">
@@ -25,9 +25,9 @@ function OurProfessional() {
         </div>
       </div>
 
-      {/* Product Menu */}
+      {/* Professor Menu */}
       <div className="flex flex-col items-center mt-12">
-        <div className="flex space-x-8">
+        <div className="flex flex-row space-x-8 overflow-scroll scrollbar-hide">
           {/* 1 */}
           <div className="flex flex-col pt-4 mx-auto bg-white rounded-xl">
             <div className="flex items-center justify-center mx-8 mt-4 rounded-full rasalina"></div>

@@ -111,7 +111,7 @@ function CustomerFb() {
           </div>
         </div>
 
-        <div className="absolute mt-32 translate-x-96 -translate-y-0">
+        {/* <div className="absolute mt-32 translate-x-96 -translate-y-0">
           <div className="relative flex flex-col justify-center pt-12 pb-12 pl-12 pr-12 transform bg-white rounded-3xl translate-x-72 -translate-y-0">
             <div className="flex justify-between">
               <div className="relative flex items-center justify-center w-16 h-16 border-2 border-pink-100 rounded-lg">
@@ -161,7 +161,7 @@ function CustomerFb() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

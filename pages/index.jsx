@@ -21,7 +21,6 @@ export default function Home() {
       <BannerImg />
       <Banner />
       <BannerNav />
-
       <PopularMenu />
       <SpecialOffer />
       <PopularDishe />
