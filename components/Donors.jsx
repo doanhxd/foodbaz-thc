@@ -1,31 +1,73 @@
 import Image from "next/image";
-import turboLogo from "../components/images/turbologo.png";
-import terrenoLogo from "../components/images/terreno.svg";
-import maxtonDes from "../components/images/maxton.png";
-import hidenLogo from "../components/images/Hiden.png";
-import duragas from "../components/images/duragas.svg";
-import zaiaEnt from "../components/images/zaia-ent.png";
+import turboLogo from "./images/turbologo.png";
+import terrenoLogo from "./images/terreno.svg";
+import maxtonDes from "./images/maxton.png";
+import hidenLogo from "./images/Hiden.png";
+import duragas from "./images/duragas.svg";
+import zaiaEnt from "./images/zaia-ent.png";
 
 function Donors() {
   return (
-    <div className="grid items-center grid-cols-6 mt-10 bg-white ">
-      <div className="flex justify-center px-10 py-10 bg-white border-r-2">
-        <Image src={hidenLogo} width={195} height={55} />
+    <div className="flex flex-row items-center justify-around flex-grow mt-10 overflow-scroll bg-white scrollbar-hide">
+      <div className="flex items-center justify-center flex-grow bg-white border-r-2 h-28 w-52">
+        <div className="relative w-36 lg:h-28">
+          <Image
+            src={hidenLogo}
+            layout="fill"
+            objectFit="contain"
+            objectPosition="center"
+          />
+        </div>
       </div>
-      <div className="flex justify-center px-10 py-10 bg-white border-r-2">
-        <Image src={turboLogo} width={200} height={100} />
+      <div className="flex items-center justify-center flex-grow bg-white border-r-2 h-28 w-52">
+        <div className="relative h-16 w-36 lg:h-28">
+          <Image
+            src={turboLogo}
+            layout="fill"
+            objectFit="contain"
+            objectPosition="center"
+          />
+        </div>
       </div>
-      <div className="flex justify-center px-10 py-10 bg-white border-r-2">
-        <Image src={terrenoLogo} width={200} height={100} />
+      <div className="flex items-center justify-center flex-grow bg-white border-r-2 h-28 w-52">
+        <div className="relative w-36 h-28 lg:h-28">
+          <Image
+            src={terrenoLogo}
+            layout="fill"
+            objectFit="contain"
+            objectPosition="center"
+          />
+        </div>
       </div>
-      <div className="flex justify-center px-10 py-10 bg-white border-r-2">
-        <Image src={maxtonDes} width={359.8} height={100} />
+      <div className="flex items-center justify-center flex-grow bg-white border-r-2 h-28 w-52">
+        <div className="relative h-8 w-36 lg:h-12">
+          <Image
+            src={maxtonDes}
+            layout="fill"
+            objectFit="contain"
+            objectPosition="center"
+          />
+        </div>
       </div>
-      <div className="flex justify-center px-10 py-10 bg-white border-r-2">
-        <Image src={duragas} width={200} height={100} />
+      <div className="flex items-center justify-center flex-grow bg-white border-r-2 h-28 w-52">
+        <div className="relative h-8 w-36 lg:h-12">
+          <Image
+            src={duragas}
+            layout="fill"
+            objectFit="contain"
+            objectPosition="center"
+          />
+        </div>
       </div>
-      <div className="flex justify-center px-10 py-10 bg-white">
-        <Image src={zaiaEnt} width={200} height={100} />
+      <div className="flex items-center justify-center flex-grow bg-white h-28 w-52">
+        <div className="relative h-8 w-36 lg:h-12">
+          <Image
+            src={zaiaEnt}
+            layout="fill"
+            objectFit="contain"
+            objectPosition="center"
+          />
+        </div>
       </div>
     </div>
   );

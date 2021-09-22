@@ -1,20 +1,22 @@
 import Image from "next/image";
-import specOff from "../components/images/special-offer.png";
-import fiftyOff from "../components/images/50-off.png";
+import specOff from "./images/special-offer.png";
+import fiftyOff from "./images/50-off.png";
 
 function SpecialOffer() {
   return (
-    <div className="grid grid-cols-2 mt-32">
+    <div className="grid grid-cols-2 pb-20 mt-20 lg:mt-32">
       {/* Left */}
-      <div className="py-8 pl-8 bg-white md:pb-48 md:pt-20">
-        <div className="flex flex-col md:pl-10 md:ml-72">
-          <p className="font-serif text-yellow-500 md:text-24">Special Offer</p>
-          <h1 className="flex flex-row mt-2 font-black text-36 md:text-44">
+      <div className="py-8 pl-4 bg-white lg:pb-48 lg:pt-20">
+        <div className="flex flex-col lg:pl-4 lg:ml-72">
+          <p className="font-serif text-yellow-500 text-18 lg:text-24">
+            Special Offer
+          </p>
+          <h1 className="flex flex-row mt-2 font-black text-24 lg:text-44">
             GOOD FOOD, DRINKS & <br />
             GREAT COMPANY.
           </h1>
-          <p className="mt-4 text-gray-500 md:text-18">
-            As well known and we are very busy all days advice you. advice{" "}
+          <p className="hidden mt-4 text-gray-500 lg:inline text-11 lg:text-18">
+            As well known and we are very busy all days advice you. advice
             <br />
             you to call us of before arriving, so we can guarantee your seat.
             <br />
@@ -22,15 +24,15 @@ function SpecialOffer() {
             are very busy all days advice you
           </p>
           {/* <div className="inline-flex mt-8"> */}
-          <div className="inline-flex flex-row space-x-8 text-13 md:flex-row">
-            <button className="w-40 mt-6 font-semibold text-white uppercase bg-green-500 rounded-lg h-14">
+          <div className="inline-flex flex-row space-x-8 text-13 lg:flex-row">
+            <button className="w-40 mt-8 font-semibold text-white uppercase bg-green-500 rounded-lg h-14">
               Try it now
             </button>
-            <div className="grid grid-cols-2 ml-14">
-              <h1 className="items-end hidden font-bold text-yellow-500 md:inline-flex text-44">
+            <div className="grid grid-cols-2 -mb-3">
+              <h1 className="items-end hidden font-bold text-yellow-500 lg:inline-flex text-44">
                 $46.99
               </h1>
-              <h2 className="items-end hidden mb-3 ml-3 text-gray-600 line-through md:inline-flex text-24">
+              <h2 className="items-end hidden mb-2 ml-3 text-gray-600 line-through lg:inline-flex text-24">
                 %59.99
               </h2>
             </div>
@@ -43,20 +45,19 @@ function SpecialOffer() {
 
       {/* Right */}
       <div className="flex">
-        <div className="flex flex-col justify-end px-4 bg-white md:px-32 rounded-r-3xl">
-          <div className="inline-flex pb-6 md:hidden">
-            <h1 className="flex items-end font-bold text-yellow-500 text-36">
-              $46.99
-            </h1>
-            <h2 className="flex items-end mx-4 mb-3 text-gray-600 line-through md:hidden">
+        <div className="flex flex-col justify-end px-4 bg-white lg:px-32 rounded-r-2xl">
+          <div className="inline-flex flex-col pb-4 lg:hidden">
+            <h1 className="flex font-bold text-yellow-500 text-24">$46.99</h1>
+            <h2 className="flex mb-3 text-gray-600 line-through items-left text-14 lg:hidden">
               %59.99
             </h2>
           </div>
         </div>
-        <div className="absolute mt-12">
-          <Image src={specOff} width={600} height={600} />
+
+        <div className="absolute mt-4 lg:mt-12 ml-4 lg:inline-flex w-[160px] h-[160px] xl:w-[500px] lg:w-[400px] lg:h-[400px] xl:h-[500px] 2xl:w-[600px] 2xl:h-[600px]">
+          <Image src={specOff} layout="fill" objectFit="cover" />
         </div>
-        <div className="hidden mt-4 transform translate-y-0 md:inline translate-x-60">
+        <div className="hidden mt-4 transform translate-y-0 lg:inline translate-x-60">
           <Image src={fiftyOff} width={150} height={150} />
         </div>
       </div>

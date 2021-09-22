@@ -16,7 +16,12 @@ import SpecialOffer from "../components/SpecialOffer";
 
 export default function Home() {
   return (
-    <>
+    <div>
+      <Head>
+        <title>Foodbaz</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      {/* Components */}
       <Header />
       <BannerImg />
       <Banner />
@@ -31,6 +36,6 @@ export default function Home() {
       <RecentArticle />
       <Donors />
       <Footer />
-    </>
+    </div>
   );
 }

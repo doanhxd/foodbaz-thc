@@ -1,12 +1,12 @@
 import Image from "next/image";
-import iPhone from "../components/images/iphone.png";
-import appSto from "../components/images/appstore.png";
-import ggPlay from "../components/images/gg-play.png";
+import iPhone from "./images/iphone.png";
+import appSto from "./images/appstore.png";
+import ggPlay from "./images/gg-play.png";
 
 function DownloadApp() {
   return (
-    <div className="mx-6 mt-48">
-      <div className="flex items-center justify-center bg-white rounded-3xl mx-80">
+    <div className="md:mx-6 md:mt-48">
+      <div className="items-center justify-center hidden bg-white lg:flex rounded-3xl mx-80">
         <div className="grid grid-cols-2 text-black">
           <div className="-mt-32 transform -translate-x-12 -translate-y-0">
             <Image src={iPhone} />

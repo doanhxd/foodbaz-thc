@@ -4,30 +4,28 @@ import { Facebook, Twitter, Youtube, Twitch, Chrome } from "react-feather";
 
 function OurProfessional() {
   return (
-    <div>
-      {/* Title Area */}
-      <div className="flex flex-row items-center justify-between px-2 mx-52 mt-36">
-        <div className="flex flex-col">
-          <div>
-            <p className="font-serif text-yellow-500 text-24">
-              Our Professional
-            </p>
-          </div>
-          <div className="mt-4">
-            <h1 className="font-black uppercase text-48">Meet our stuff</h1>
-          </div>
+    <div className="flex flex-col px-2 mt-12 lg:mt-24">
+      <div className="flex flex-row justify-between lg:-mx-12 lg:justify-around">
+        {/* Title Area */}
+        <div className="grid grid-rows-2 lg:mt-0">
+          <p className="font-serif text-yellow-500 lg:text-24">
+            Our Professional
+          </p>
+          <h1 className="font-black uppercase truncate text-20 lg:text-48">
+            Meet our stuff
+          </h1>
         </div>
-
-        <div>
-          <button className="px-10 py-5 my-3 font-bold text-white transition duration-150 bg-yellow-500 rounded-lg shadow-md mt-14 hover:shadow-xl active:scale-90">
+        {/* Button Area */}
+        <div className="mt-1 lg:mt-16">
+          <button className="px-5 py-3 font-bold text-white truncate transition duration-150 bg-yellow-500 rounded-lg shadow-md lg:px-10 lg:py-5 hover:shadow-xl active:scale-95">
             VIEW ALL STAFF
           </button>
         </div>
       </div>
 
       {/* Professor Menu */}
-      <div className="flex flex-col items-center mt-12">
-        <div className="flex flex-row space-x-8 overflow-scroll scrollbar-hide">
+      <div className="flex items-center justify-center mt-12">
+        <div className="flex flex-row space-x-4 overflow-scroll lg:space-x-8 scrollbar-hide">
           {/* 1 */}
           <div className="flex flex-col pt-4 mx-auto bg-white rounded-xl">
             <div className="flex items-center justify-center mx-8 mt-4 rounded-full rasalina"></div>
