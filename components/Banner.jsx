@@ -6,7 +6,7 @@ function Banner() {
       {/* Banner Left */}
       <div className="flex flex-col bg-white rounded-br-2xl lg:rounded-none">
         {/* Order field */}
-        <div className="inline-flex flex-col mt-4 ml-4 lg:mt-44 lg:ml-28">
+        <div className="inline-flex flex-col ml-4 lg:mt-44 lg:ml-28">
           <h3 className="font-serif text-yellow-500 xl:text-24">
             Medium 2-topping* Burger
           </h3>
@@ -30,12 +30,12 @@ function Banner() {
           </div>
         </div>
 
-        <div className="flex flex-col items-end my-4 mr-4 font-medium uppercase bg-white cursor-pointer lg:space-x-8 text-13 lg:inline-flex lg:text-14 lg:mt-48 lg:flex-row lg:ml-20">
-          <div className="flex items-center mr-8 lg:mr-0">
+        <div className="flex flex-col items-end my-4 mr-4 font-medium uppercase bg-white cursor-pointer lg:space-x-8 text-11 lg:inline-flex lg:text-14 lg:mt-48 lg:flex-row lg:ml-20">
+          <div className="flex items-center mr-16 lg:mr-0">
             <Facebook className="h-4 mr-2 lg:ml-4" />
             Facebook
           </div>
-          <div className="flex items-center mt-2 mr-4 lg:mr-0">
+          <div className="flex items-center mt-2 mr-8 lg:mr-0">
             <Twitter className="h-4 mr-2" /> Twitter
           </div>
           <div className="flex items-center mt-2">
@@ -46,7 +46,7 @@ function Banner() {
 
       {/* Banner Right */}
       <div className="inline-flex justify-end">
-        <div className="mt-4 mr-4 lg:mt-20 lg:mr-44">
+        <div className="mr-4 lg:mt-20 lg:mr-44">
           <div className="flex flex-col text-black">
             {/* Number 1 - 2 - 3 */}
             <div className="flex flex-row-reverse items-center lg:mt-24">
