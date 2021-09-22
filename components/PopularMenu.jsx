@@ -34,7 +34,7 @@ function PopularMenu() {
           </div>
 
           {/* 1 Product Item Menu */}
-          <div className="px-10 py-6 transition duration-200 bg-white cursor-pointer hover:bg-yellow-500 hover:text-white lg:py-10 rounded-2xl lg:rounded-l-3xl lg:rounded-r-none">
+          <div className="px-10 py-6 bg-white lg:py-10 rounded-2xl lg:rounded-l-3xl lg:rounded-r-none">
             <div className="relative w-12 h-12 mt-4">
               <Image src={comboThumb} layout="fill" objectFit="cover" />
             </div>
@@ -59,7 +59,7 @@ function PopularMenu() {
           </div>
 
           {/* 2 Combo Pack */}
-          <div className="px-10 py-6 transition duration-200 bg-white cursor-pointer lg:py-10 hover:bg-yellow-500 hover:text-white lg:rounded-none rounded-2xl">
+          <div className="px-10 py-6 bg-white lg:py-10 lg:rounded-none rounded-2xl">
             <div className="relative w-12 h-12 mt-4">
               <Image src={chickenThumb} layout="fill" objectFit="cover" />
             </div>
@@ -115,7 +115,7 @@ function PopularMenu() {
           </div>
 
           {/* 4 Combo Pack */}
-          <div className="px-10 py-6 transition duration-200 bg-white cursor-pointer hover:text-white hover:bg-yellow-500 rounded-2xl lg:py-10 lg:rounded-r-3xl lg:rounded-l-none">
+          <div className="px-10 py-6 bg-white rounded-2xl lg:py-10 lg:rounded-r-3xl lg:rounded-l-none">
             <div className="relative w-12 h-12 mt-4">
               <Image src={boxThumb} layout="fill" objectFit="cover" />
             </div>
