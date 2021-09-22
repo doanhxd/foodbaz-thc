@@ -145,19 +145,19 @@ function Footer() {
 
           <div className="flex items-center justify-center mt-4 text-white lg:mt-0 lg:justify-end">
             <div className="flex space-x-3 lg:grid lg:grid-cols-5">
-              <div className="flex items-center justify-center h-10 w-10 lg:h-12 lg:w-12 ml-3.5 bg-gray-800 rounded-md filter brightness-125">
+              <div className="flex items-center justify-center transition duration-200 cursor-pointer hover:bg-yellow-600 filter hover:brightness-105 h-10 w-10 lg:h-12 lg:w-12 ml-3.5 bg-gray-800 rounded-md brightness-125">
                 <Twitter className="h-5 lg:h-8" />
               </div>
-              <div className="flex items-center justify-center w-10 h-10 bg-gray-800 rounded-md lg:h-12 lg:w-12 filter brightness-125">
+              <div className="flex items-center justify-center w-10 h-10 transition duration-200 bg-gray-800 rounded-md cursor-pointer hover:bg-yellow-600 hover:brightness-105 lg:h-12 lg:w-12 filter brightness-125">
                 <Facebook className="h-5 lg:h-8" />
               </div>
-              <div className="flex items-center justify-center w-10 h-10 bg-gray-800 rounded-md lg:h-12 lg:w-12 filter brightness-125">
+              <div className="flex items-center justify-center w-10 h-10 transition duration-200 bg-gray-800 rounded-md cursor-pointer hover:bg-yellow-600 hover:brightness-105 lg:h-12 lg:w-12 filter brightness-125">
                 <Instagram className="h-5 lg:h-8" />
               </div>
-              <div className="flex items-center justify-center w-10 h-10 bg-gray-800 rounded-md lg:h-12 lg:w-12 filter brightness-125">
+              <div className="flex items-center justify-center w-10 h-10 transition duration-200 bg-gray-800 rounded-md cursor-pointer hover:bg-yellow-600 filter hover:brightness-105 lg:h-12 lg:w-12 brightness-125">
                 <Youtube className="h-5 lg:h-8" />
               </div>
-              <div className="flex items-center justify-center w-10 h-10 bg-yellow-600 rounded-md lg:h-12 lg:w-12 filter brightness-110">
+              <div className="flex items-center justify-center w-10 h-10 bg-yellow-600 rounded-md cursor-pointer lg:h-12 lg:w-12 filter brightness-110">
                 <p className="text-13 lg:text-16">Bë</p>
               </div>
             </div>

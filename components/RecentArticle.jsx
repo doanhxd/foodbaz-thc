@@ -8,7 +8,9 @@ function RecentArticle() {
       <div className="flex flex-col items-center">
         <p className="font-serif text-yellow-500 md:text-24">Recent Article</p>
 
-        <h1 className="font-black uppercase md:text-48">Latest News & Blog</h1>
+        <h1 className="font-black uppercase text-24 md:text-48">
+          Latest News & Blog
+        </h1>
       </div>
 
       {/* Product Menu overflow-scroll scrollbar-hide  */}
@@ -30,7 +32,7 @@ function RecentArticle() {
                 objectPosition="center"
               />
             </div>
-            <p className="ml-6 -mb-1 font-semibold text-green-600 text-18">
+            <p className="ml-6 -mb-1 font-semibold text-green-600 cursor-pointer text-18">
               → READ MORE
             </p>
           </div>
@@ -51,7 +53,9 @@ function RecentArticle() {
                 objectPosition="center"
               />
             </div>
-            <p className="ml-6 -mb-1 text-18">→ READ MORE</p>
+            <p className="ml-6 -mb-1 font-semibold transition duration-200 cursor-pointer text-18 hover:text-green-500">
+              → READ MORE
+            </p>
           </div>
 
           {/* 3 */}
@@ -70,7 +74,9 @@ function RecentArticle() {
                 objectPosition="center"
               />
             </div>
-            <p className="ml-6 -mb-1 text-18">→ READ MORE</p>
+            <p className="ml-6 -mb-1 font-semibold transition duration-200 cursor-pointer text-18 hover:text-green-500">
+              → READ MORE
+            </p>
           </div>
         </div>
       </div>

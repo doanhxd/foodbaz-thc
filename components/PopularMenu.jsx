@@ -28,13 +28,13 @@ function PopularMenu() {
         <div className="flex mt-4 space-x-2 mr-2 overflow-scroll lg:space-x-0.5 scrollbar-hide lg:grid-cols-6 lg:grid lg:mt-12">
           {/* Button Left */}
           <div className="items-center justify-center hidden lg:flex">
-            <button className="flex items-center justify-center w-16 h-16 text-black bg-white rounded-full shadow-md text-24">
+            <button className="flex items-center justify-center w-16 h-16 text-black transition duration-150 bg-white rounded-full shadow-md hover:bg-yellow-500 hover:text-white text-24 active:scale-90">
               <ArrowLeft className="h-8" />
             </button>
           </div>
 
           {/* 1 Product Item Menu */}
-          <div className="px-10 py-6 bg-white lg:py-10 rounded-2xl lg:rounded-l-3xl lg:rounded-r-none">
+          <div className="px-10 py-6 transition duration-200 bg-white cursor-pointer hover:bg-yellow-500 hover:text-white lg:py-10 rounded-2xl lg:rounded-l-3xl lg:rounded-r-none">
             <div className="relative w-12 h-12 mt-4">
               <Image src={comboThumb} layout="fill" objectFit="cover" />
             </div>
@@ -59,7 +59,7 @@ function PopularMenu() {
           </div>
 
           {/* 2 Combo Pack */}
-          <div className="px-10 py-6 bg-white lg:py-10 lg:rounded-none rounded-2xl">
+          <div className="px-10 py-6 transition duration-200 bg-white cursor-pointer lg:py-10 hover:bg-yellow-500 hover:text-white lg:rounded-none rounded-2xl">
             <div className="relative w-12 h-12 mt-4">
               <Image src={chickenThumb} layout="fill" objectFit="cover" />
             </div>
@@ -115,7 +115,7 @@ function PopularMenu() {
           </div>
 
           {/* 4 Combo Pack */}
-          <div className="px-10 py-6 bg-white rounded-2xl lg:py-10 lg:rounded-r-3xl lg:rounded-l-none">
+          <div className="px-10 py-6 transition duration-200 bg-white cursor-pointer hover:text-white hover:bg-yellow-500 rounded-2xl lg:py-10 lg:rounded-r-3xl lg:rounded-l-none">
             <div className="relative w-12 h-12 mt-4">
               <Image src={boxThumb} layout="fill" objectFit="cover" />
             </div>
@@ -139,7 +139,7 @@ function PopularMenu() {
 
           {/* Button Right */}
           <div className="items-center justify-center hidden lg:flex">
-            <button className="flex items-center justify-center w-16 h-16 text-black bg-white rounded-full shadow-md text-24">
+            <button className="flex items-center justify-center w-16 h-16 text-black transition duration-150 bg-white rounded-full shadow-md active:scale-90 hover:bg-yellow-500 hover:text-white text-24">
               <ArrowRight />
             </button>
           </div>

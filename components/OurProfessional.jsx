@@ -42,16 +42,16 @@ function OurProfessional() {
             </div>
 
             <div className="flex justify-center mt-8 space-x-3">
-              <div className="px-3 py-3 bg-yellow-500 rounded-t-lg">
+              <div className="px-3 py-3 bg-yellow-500 rounded-t-lg cursor-pointer btn-bg ">
                 <Twitter className="h-6 text-white" />
               </div>
-              <div className="px-3 py-3 bg-pink-100 rounded-t-lg">
+              <div className="px-3 py-3 transition duration-200 rounded-t-lg cursor-pointer button-bg hover:bg-yellow-500 hover:text-white">
                 <Chrome className="h-6" />
               </div>
-              <div className="px-3 py-3 bg-pink-100 rounded-t-lg">
+              <div className="px-3 py-3 transition duration-200 rounded-t-lg cursor-pointer hover:bg-yellow-500 hover:text-white button-bg">
                 <Youtube className="h-6 " />
               </div>
-              <div className="px-3 py-3 bg-pink-100 rounded-t-lg">
+              <div className="px-3 py-3 transition duration-200 rounded-t-lg cursor-pointer button-bg hover:bg-yellow-500 hover:text-white">
                 <Facebook className="h-6" />
               </div>
             </div>

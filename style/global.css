@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+.button-bg {
+  background: #f8f5ef;
+}
+
 .header-bg {
   background: #f8f5ef !important;
 }

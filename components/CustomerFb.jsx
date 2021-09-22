@@ -7,14 +7,14 @@ import staredIc from "./images/stars/stared.png";
 
 function CustomerFb() {
   return (
-    <div className="grid grid-cols-2 mt-12 md:mt-32">
+    <div className="grid grid-cols-2 mt-16 md:mt-32">
       {/* Left */}
       <div className="py-6 bg-gray-900 md:pb-48 md:pt-20">
         <div className="flex flex-col ml-6 md:mt-16 md:ml-80">
           <p className="font-serif text-yellow-500 md:text-24">
             Customer Feedback
           </p>
-          <h1 className="flex flex-row mt-4 font-black text-white text-24 md:text-44">
+          <h1 className="flex flex-row mt-2 font-black text-white text-24 md:text-44">
             WHAT OUR CLIENT SAY?
           </h1>
           <p className="hidden mt-4 text-gray-500 md:inline text-18">
@@ -61,7 +61,7 @@ function CustomerFb() {
           <div className="absolute mt-14 md:mt-32 md:ml-28">
             <div className="relative flex flex-col justify-center px-6 py-6 bg-white md:w-full w-60 md:py-12 md:px-12 rounded-3xl">
               <div className="flex justify-between">
-                <div className="relative flex items-center justify-center w-16 h-16 border-2 border-pink-100 rounded-lg">
+                <div className="relative flex items-center justify-center w-16 h-16 border-2 border-yellow-500 rounded-sm">
                   <Image src={avtCus} />
                 </div>
                 <div className="flex">
@@ -83,7 +83,7 @@ function CustomerFb() {
                 </p>
               </div>
               <div className="flex justify-between mt-4 truncate md:mt-20 md:space-x-12">
-                <div className="w-24 mt-1 md:mt-0">
+                <div className="w-24 mt-1 md:w-auto md:mt-0">
                   <div className="font-semibold truncate text-14 md:text-20">
                     RASALINA DE WILLAMSON
                   </div>
@@ -118,7 +118,7 @@ function CustomerFb() {
           <div className="absolute hidden mt-32 md:inline translate-x-96 -translate-y-0">
             <div className="relative flex flex-col justify-center pt-12 pb-12 pl-12 pr-12 transform bg-white rounded-3xl translate-x-72 -translate-y-0">
               <div className="flex justify-between">
-                <div className="relative flex items-center justify-center w-16 h-16 border-2 border-pink-100 rounded-lg">
+                <div className="relative flex items-center justify-center w-16 h-16 border-2 border-yellow-500 rounded-sm">
                   <Image src={avtCry} />
                 </div>
                 <div className="flex">

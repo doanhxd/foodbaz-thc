@@ -24,8 +24,9 @@ function SpecialOffer() {
             are very busy all days advice you
           </p>
           {/* <div className="inline-flex mt-8"> */}
+
           <div className="inline-flex flex-row space-x-8 text-13 lg:flex-row">
-            <button className="w-40 mt-8 font-semibold text-white uppercase bg-green-500 rounded-lg h-14">
+            <button className="w-40 mt-8 font-semibold text-white uppercase transition duration-150 bg-green-500 rounded-lg active:scale-95 h-14">
               Try it now
             </button>
             <div className="grid grid-cols-2 -mb-3">

@@ -27,7 +27,7 @@ function SpecialKombo() {
           </p>
 
           <div className="flex mt-8 truncate">
-            <button className="w-40 h-12 mt-6 font-semibold text-white uppercase bg-green-500 rounded-lg md:h-14 md:text-16 text-14">
+            <button className="w-40 h-12 mt-6 font-semibold text-white uppercase transition duration-150 bg-green-500 rounded-lg active:scale-95 md:h-14 md:text-16 text-14">
               Order now
             </button>
             <div className="grid grid-cols-2 ml-12">
@@ -43,7 +43,7 @@ function SpecialKombo() {
       </div>
 
       {/* Right */}
-      <div className="flex bg-gray-900">
+      <div className="flex pl-2 bg-gray-900 md:pl-0">
         <div className="flex flex-col justify-end">
           <div className="inline-flex flex-col pb-4 lg:hidden">
             <h1 className="flex font-bold text-yellow-500 text-24">$46.99</h1>

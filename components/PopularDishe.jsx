@@ -20,37 +20,37 @@ function PopularDishe() {
       <div className="flex justify-center lg:mt-12">
         <div className="flex-row justify-between hidden space-x-6 lg:inline-flex">
           <div>
-            <button className="px-6 py-5 my-3 font-semibold transition duration-150 bg-white rounded-lg shadow-md hover:bg-yellow-500 hover:text-white active:scale-95">
+            <button className="px-6 py-5 my-3 font-semibold transition duration-200 bg-white rounded-lg shadow-md hover:bg-yellow-500 hover:text-white active:scale-90">
               ALL CATEGORY
             </button>
           </div>
           <div>
-            <button className="px-8 py-5 my-3 font-semibold text-white transition duration-150 bg-yellow-500 rounded-lg shadow-md active:scale-95">
+            <button className="px-8 py-5 my-3 font-semibold text-white transition duration-200 bg-yellow-500 rounded-lg shadow-md active:scale-90">
               PIZZA
             </button>
           </div>
           <div>
-            <button className="px-10 py-5 my-3 font-semibold transition duration-150 bg-white rounded-lg shadow-md hover:bg-yellow-500 hover:text-white active:scale-90">
+            <button className="px-10 py-5 my-3 font-semibold transition duration-200 bg-white rounded-lg shadow-md hover:bg-yellow-500 hover:text-white active:scale-90">
               BURGER
             </button>
           </div>
           <div>
-            <button className="px-10 py-5 my-3 font-semibold transition duration-150 transform bg-white rounded-lg shadow-md hover:bg-yellow-500 hover:text-white active:scale-95">
+            <button className="px-10 py-5 my-3 font-semibold transition duration-200 transform bg-white rounded-lg shadow-md hover:bg-yellow-500 hover:text-white active:scale-90">
               BLUEBERRY SHAKE
             </button>
           </div>
           <div>
-            <button className="px-10 py-5 my-3 font-semibold transition duration-150 bg-white rounded-lg shadow-md hover:bg-yellow-500 hover:text-white active:scale-95">
+            <button className="px-10 py-5 my-3 font-semibold transition duration-200 bg-white rounded-lg shadow-md hover:bg-yellow-500 hover:text-white active:scale-90">
               CHICK SHUP
             </button>
           </div>
           <div>
-            <button className="px-10 py-5 my-3 font-semibold transition duration-150 bg-white rounded-lg shadow-md hover:bg-yellow-500 hover:text-white active:scale-95">
+            <button className="px-10 py-5 my-3 font-semibold transition duration-200 bg-white rounded-lg shadow-md hover:bg-yellow-500 hover:text-white active:scale-90">
               ICE CREAM
             </button>
           </div>
           <div>
-            <button className="px-10 py-5 my-3 font-semibold transition duration-150 bg-white rounded-lg shadow-md hover:bg-yellow-500 hover:text-white active:scale-95">
+            <button className="px-10 py-5 my-3 font-semibold transition duration-200 bg-white rounded-lg shadow-md hover:bg-yellow-500 hover:text-white active:scale-90">
               DRINK
             </button>
           </div>
@@ -63,10 +63,10 @@ function PopularDishe() {
           {/* 1 */}
           <div className="flex flex-col px-20 py-8 bg-white rounded-xl">
             <div className="flex justify-center mt-3 space-x-3">
-              <div className="px-3 py-3 bg-pink-100 rounded-lg">
+              <div className="px-3 py-3 transition duration-200 rounded-lg button-bg hover:bg-green-500 hover:text-white">
                 <ShoppingCartIcon className="h-6" />
               </div>
-              <div className="px-3 py-3 bg-pink-100 rounded-lg">
+              <div className="px-3 py-3 transition duration-200 rounded-lg button-bg hover:bg-green-500 hover:text-white">
                 <HeartIcon className="h-6" />
               </div>
               <div className="px-3 py-3 bg-green-500 rounded-lg">
@@ -358,7 +358,7 @@ function PopularDishe() {
 
       {/* Button SEE ALL PRODUCT */}
       <div className="flex justify-center mt-8">
-        <button className="w-48 font-bold text-white truncate bg-green-500 rounded-lg shadow-md h-14 lg:w-52 lg:h-16 lg:mt-8 active:scale-95">
+        <button className="mt-4 font-bold text-white truncate transition duration-150 bg-green-500 rounded-lg shadow-md w-44 h-14 lg:w-52 lg:h-16 lg:mt-8 active:scale-95">
           SEE ALL PRODUCT
         </button>
       </div>
