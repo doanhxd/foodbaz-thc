@@ -20,17 +20,17 @@ function Banner() {
             <br /> you. Advice you to call us of before arriving.
           </p>
 
-          <div className="inline-flex flex-col space-x-8 text-11 lg:text-13 lg:flex-row">
-            <button className="w-20 h-10 mt-4 font-semibold text-white uppercase bg-green-500 rounded-lg lg:w-40 lg:h-14">
+          <div className="inline-flex mt-3 -ml-2 space-x-2 md:ml-0 md:space-x-8 md:flex-col text-11 lg:text-13 lg:flex-row">
+            <button className="w-20 h-10 font-semibold text-white uppercase bg-green-500 rounded-lg md:mt-4 lg:w-40 lg:h-14">
               Try it now
             </button>
-            <button className="w-20 h-10 mt-6 font-semibold text-white uppercase bg-yellow-500 rounded-lg lg:w-40 lg:h-14">
+            <button className="w-20 h-10 font-semibold text-white uppercase bg-yellow-500 rounded-lg md:mt-6 lg:w-40 lg:h-14">
               See our menu
             </button>
           </div>
         </div>
 
-        <div className="flex flex-col items-end my-8 mr-8 font-medium uppercase bg-white cursor-pointer lg:space-x-8 text-13 lg:inline-flex lg:text-14 lg:mt-48 lg:flex-row lg:ml-20">
+        <div className="flex flex-col items-end my-4 mr-4 font-medium uppercase bg-white cursor-pointer lg:space-x-8 text-13 lg:inline-flex lg:text-14 lg:mt-48 lg:flex-row lg:ml-20">
           <div className="flex items-center mr-8 lg:mr-0">
             <Facebook className="h-4 mr-2 lg:ml-4" />
             Facebook
@@ -64,7 +64,7 @@ function Banner() {
               </div>
             </div>
 
-            <div className="flex flex-row-reverse items-center mt-12 lg:mt-24">
+            <div className="flex flex-row-reverse items-center mt-8 lg:mt-24">
               <button className="w-8 h-8 font-medium bg-white rounded-full shadow-md lg:w-16 lg:h-16 text-13 lg:text-24 active:scale-95">
                 02
               </button>
@@ -77,7 +77,7 @@ function Banner() {
               </div>
             </div>
 
-            <div className="flex flex-row-reverse items-center mt-12 lg:mt-24">
+            <div className="flex flex-row-reverse items-center mt-8 lg:mt-24">
               <button className="w-8 h-8 font-medium bg-white rounded-full shadow-md lg:w-16 lg:h-16 text-13 lg:text-24 active:scale-95">
                 03
               </button>
@@ -90,7 +90,7 @@ function Banner() {
               </div>
             </div>
 
-            <div className="flex flex-row-reverse items-center mt-32 lg:mt-40">
+            <div className="flex flex-row-reverse items-center mt-16 lg:mt-40">
               <button className="inline-flex items-center justify-center w-8 h-8 bg-white rounded-full shadow-md lg:w-16 lg:h-16 active:scale-95">
                 <Play className="h-4 lg:h-8 ml-0.5" />
               </button>
